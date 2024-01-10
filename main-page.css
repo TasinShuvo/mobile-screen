@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#container {
+  width: 300px;
+  background-color:white;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  #container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 413px) {
+  #container {
+    overflow: hidden;
+  }
+}
+
+.girl-pic {
+  width: 100%;
+}
+
+.logo-container {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 361px) {
+  .logo-container {
+    margin-bottom: 4px;
+  }
+}
+
+.logo-pic {
+  max-width: 300px;
+}
+
+@media (max-width: 413px) {
+  .logo-pic {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo-pic {
+    max-width: 200px;
+  }
+}
+
+.title-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 415px) {
+  .title-text {
+    margin-bottom: 8px;
+  }
+}
+
+.login-before-title {
+  width: 220px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .login-before-title {
+    font-size: 30px;
+    width: fit-content;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 413px) {
+  .login-before-title {
+    width: 240px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 385px) {
+  .login-before-title {
+    font-size: 14px;
+    width: 180px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 385px) {
+  .login-before-title {
+    font-size: 14px;
+    width: 180px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .login-before-title {
+    font-size: 12px;
+    width: 280px;
+    line-height: 16px;
+  }
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 321px) {
+  .button-container {
+    margin-top: 8px;
+  }
+}
+
+.button-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 361px) {
+  .button-container-2 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .button-container-2 {
+    margin-top: -7px;
+  }
+}
+
+.sign-in-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(245, 81, 30);
+  padding: 14px 70px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+@media (max-width: 500px) {
+  .sign-in-button {
+    padding: 14px 122px;
+  }
+}
+
+@media (max-width: 413px) {
+  .sign-in-button {
+    padding: 14px 120px;
+  }
+}
+
+@media (max-width: 361px) {
+  .sign-in-button {
+    padding: 10px 100px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 321px) {
+  .sign-in-button {
+    padding: 7px 80px;
+    font-size: 10px;
+  }
+}
+
+.new-account-container {
+  margin-top: 20px;
+}
+
+.new-account-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(10, 37, 67);
+  padding: 14px 45px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+@media (max-width: 500px) {
+  .new-account-button {
+    padding: 14px 100px;
+  }
+}
+
+@media (max-width: 361px) {
+  .new-account-button {
+    padding: 10px 80px;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .new-account-button {
+    padding: 7px 68px;
+    border-radius: 25px;
+    font-size: 10px;
+  }
+}
+
+.footer-text-container {
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  background-color: black;
+}
